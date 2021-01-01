@@ -8,3 +8,16 @@
     align-items: center;
     justify-content: center;
 }
+
+.centrarH{
+    display: flex;
+    justify-content: center;
+}
+
+.enviarDerecha{
+    text-align: end;
+}
+
+.borde{
+    border: solid 1px red;
+}
