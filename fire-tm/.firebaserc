@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fire-tm": {
+      "hosting": {
+        "fire-tm": [
+          "fire-tm"
+        ]
+      }
+    }
+  }
+}
