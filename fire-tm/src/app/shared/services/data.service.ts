@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
   public signedIn: Observable<any>;
-  public isUserLogin:boolean = false;
+  public userLogin:any = null;
   private sprintCollection:AngularFirestoreCollection<number>;
   constructor(private auth: AngularFireAuth, private readonly afs:AngularFirestore) { 
     this.sprintCollection = afs.collection<number>('sprint');

@@ -13,9 +13,9 @@ export class AppComponent implements OnInit{
 
     this.dataService.signedIn.subscribe((user) => {
       if (user) {
-          this.dataService.isUserLogin = true;
+          this.dataService.userLogin = user;
       } else {
-        this.dataService.isUserLogin = false;
+        this.dataService.userLogin = null;
       }
   });
   }
